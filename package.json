@@ -1,0 +1,23 @@
+{
+  "name": "hltv-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crustbrns/hltv-scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crustbrns/hltv-scrapper/issues"
+  },
+  "homepage": "https://github.com/Crustbrns/hltv-scrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.43.1"
+  }
+}
