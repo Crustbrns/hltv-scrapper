@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   "homepage": "https://github.com/Crustbrns/hltv-scrapper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "playwright": "^1.43.1"
+    "excel4node": "^1.8.2",
+    "nodemon": "^3.1.0",
+    "playwright": "^1.43.1",
+    "ts-node": "^10.9.2"
   }
 }
